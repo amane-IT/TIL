@@ -1,3 +1,6 @@
+## 01 ~ 08: 기초
+## 10 ~   : 추가내용
+
 <details>
 <summary>일지</summary>
 <div markdown="1">       
