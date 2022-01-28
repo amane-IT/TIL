@@ -25,8 +25,9 @@
 
 ## DDL
 - Database Definition Language
-- Create, Rename, Alter, Drop이 포함
 - 데이터베이스 객체의 구조 정의
+- Create, Rename, Alter, Drop이 포함
+  + **CREATE DATABASE** DB이름 [default character set 값 collate 값]
 
 ## DCL
 - Database Control Language
