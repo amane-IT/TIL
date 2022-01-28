@@ -45,6 +45,11 @@
       |%x|x로 끝나는 문자열|
       |_|언더바 하나에 문자 하나를 의미|
 
+### ORDER BY절
+- ORDER BY 컬럼명: 컬럼명을 기준으로 오름차순 정렬을 시킨다
+- DESC를 붙이면 내림차순 정렬
+- 정렬기준은 복수 개도 
+
 ## DDL
 - Database Definition Language
 - 데이터베이스 객체의 구조 정의
