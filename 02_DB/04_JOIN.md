@@ -24,3 +24,15 @@
 ### Outer Join
 - 어느 한 쪽 테이블에서는 데이터가 존재하는데 다른 쪽 테이블에서는 존재하지 않는 경우, 해당 데이터가 검색되지 않는 문제점 해결
 - 기준에 따라 **LEFT JOIN / RIGHT JOIN / FULL JOIN**으로 구분
+  + FULL OUTER JOIN은 MYSQL에서 제공하지 않음
+
+![image](https://user-images.githubusercontent.com/48676089/151801757-b17a7531-0c1b-4351-a052-7923adeea264.png)
+
+### SELF JOIN
+- 같은 테이블끼리 JOIN
+- 같은 테이블 내의 다른 칼럼의 데이터와 비교하여 결과 출력 시 사용
+
+### Non-Equi JOIN
+- 테이블의 PK, FK가 아닌 일반 칼럼을 join 조건으로 지정
+- 두 테이블 간에 칼럼 값들이 서로 정확하게 일치하지 않는 경우 사용
+- **Between, >, >=, <, <=** 등 연산자로 JOIN 수행
