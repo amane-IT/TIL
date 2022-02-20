@@ -67,6 +67,7 @@
 - path: /
 - Version of Protocol: HTTP/1.1
 - Header: Host: ~
+
 ```http request
 GET / HTTP/1.1
 Host: developer.mozilla.org
@@ -177,6 +178,13 @@ http://www.ssafy.com/good.jsp?parameter1=value1&parameter2=value2
 
 <br>
 
+## ※ JSP 기본객체 영역
+- request → doGet과 doPost의 요청 처리에 사용되는 영역
+    - 요청될 때마다 새로운 객체 생성
+    - 그 요청의 응답이 완료되면 사라짐
+
+<br>
+
 ---
 # MVC
 ## Web Application Architecture
@@ -210,7 +218,7 @@ http://www.ssafy.com/good.jsp?parameter1=value1&parameter2=value2
 | JSP | View | - 화면 처리 담당<br>- 클라이언트 요청만이 아니라 Controller 요청도 jsp가 처리<br>- 결과출력을 위한 code만 존재 |
 | servlet | Controller | - 클라이언트의 요청 분석 → 로직 처리를 위한 model 호출<br>- return 받은 data에 따라 request, session등에 저장 |
 
-### 구조
+### ※ 구조
 ![img.png](img.png)
 
 1. Controller에서 클라이언트로부터 요청을 받음
